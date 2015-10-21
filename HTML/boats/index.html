@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="Rentica - The Best One Yet">
+    <meta name="author" content="CreateIT">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="./assets/images/content/boats/icon.ico">
+    <!--<link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+
+    <title>Rentica - HTML Template</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="./assets/bootstrap/js/html5shiv.min.js"></script>
+	<script src="./assets/bootstrap/js/respond.min.js"></script>
+ 	<script src="./assets/plugins/REM-unit-polyfill/js/rem.min.js"></script>
+    <![endif]-->
+    <script src="./assets/js/modernizr.custom.js"></script>
+</head>
+
+<body class="cssAnimate boats">
+<div class="ct-preloader-container">                                            <!-- Preloader -->
+    <div class='ct-preloader'><div><div><div><div><div><div><div><div><div><div></div></div></div></div></div></div></div></div></div></div></div>
+</div>
+
+<div class="ct-menuMobile">
+    <div class="ct-menuMobile-logo"><a href="index.html"><img src="./assets/images/content/logo2.png" alt=""/></a></div>
+    <ul class="ct-menuMobile-navbar">
+        <li class="active"><a href="index.html"><span>Home</span></a></li>
+        <li><a href="about.html"><span>About us</span></a></li>
+        <li><a href="gallery.html"><span>Our gallery</span></a></li>
+        <li class="dropdown"><a href="rent-now.html"><span>Rent Now</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="rent-now.html"><span>Rent Now</span></a></li>
+                <li><a href="rent-item.html"><span>Rent Item</span></a></li>
+                <li><a href="rent-page-variation-1.html"><span>Rent Page v1</span></a></li>
+                <li><a href="rent-page-variation-2.html"><span>Rent Page v2</span></a></li>
+                <li><a href="rent-paypal.html"><span>Rent with Paypal integration</span></a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="blog.html"><span>Blog</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="blog-single.html"><span>Blog Single</span></a></li>
+                <li><a href="blog-archive.html"><span>Blog Archive</span></a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="events.html"><span>Events</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="events.html"><span>Events</span></a></li>
+                <li><a href="event-single.html"><span>Event Single 1</span></a></li>
+                <li><a href="event-single2.html"><span>Event Single 2</span></a></li>
+            </ul>
+        </li>
+        <li class="dropdown"><a href="account.html"><span>Pages</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="account.html"><span>My Account</span></a></li>
+                <li><a href="login.html"><span>Login</span></a></li>
+
+                <li><a href="404.html"><span>404</span></a></li>
+            </ul>
+        </li>
+        <li><a href="services.html"><span>Services</span></a></li>
+        <li><a href="contact.html"><span>Contact</span></a></li>
+    </ul>
+</div>
+
+<div id="ct-js-wrapper" class="ct-pageWrapper">
+
+<nav class="navbar navbar-default ct-navbar ct-shadow ct-shadow--type1">
+
+    <div class="navbar-header">
+        <a class="ct-logoDark" href="index.html"><img src="./assets/images/content/logo.png" alt=""/></a>
+        <a class="ct-logoWhite" href="index.html"><img src="./assets/images/content/logo2.png" alt=""/></a>
+    </div>
+
+<div class="container">
+    <div class="ct-navbarBox">
+        <a href="login.html" class="ct-login"><span>Login</span><i class="fa fa-lock"></i></a>
+        <div class="ct-navbarBox-meta">
+            <div class="ct-navSearch-box">
+                <a class="ct-js-navSearch ct-navSearch" href="#"><i class="fa fa-search"></i></a> <!-- Navbar Search  -->
+                <div class="ct-navbar-search">
+                    <form role="form">
+                        <div class="form-group  ct-input--type2">
+                            <input id="searchM" required="" type="text" name="field[]" placeholder="Search website..." class="form-control">
+                            <label for="searchM"><span>Search</span></label>
+                            <button class="ct-navbar-search-button" type="submit">
+                                <i class="fa fa-search fa-fw"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="ct-langPicker">
+                <div class="ct-langPicker-content">
+                    <a href="#"><img src="./assets/images/content/flag-01.jpg" alt=""/></a>
+                    <ul class="ct-langPicker-list">
+                        <li><a href="#">English <img src="./assets/images/content/flag-01.jpg" alt=""/></a></li>
+                        <li><a href="#">Español <img src="./assets/images/content/flag-03.jpg" alt=""/></a></li>
+                        <li><a href="#">Italiano <img src="./assets/images/content/flag-02.jpg" alt=""/></a></li>
+                    </ul>
+                </div>
+            </div> <!-- Flags -->
+        </div>
+
+        <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <ul class="nav navbar-nav ct-navbar--fadeIn">
+        <!--=========================================================================-->
+        <li class="active"><a href="index.html"><div class="ct-textEffect"><span data-content="Home">Home</span></div></a></li>
+        <!--=========================================================================-->
+        <li class="dropdown"><a href="about.html"><div class="ct-textEffect"><span data-content="About Us">About Us</span></div></a>
+            <ul class="dropdown-menu">
+                <li><a href="about.html"><span>About us</span></a></li>
+                <li><a href="gallery.html"><span>Our gallery</span></a></li>
+            </ul>
+        </li>
+        <!--=========================================================================-->
+        <li><a href="services.html"><div class="ct-textEffect"><span data-content="Services">Services</span></div></a></li>
+        <li class="dropdown"><a href="rent-now.html"><div class="ct-textEffect"><span data-content="Rent Now">Rent Now</span></div></a>
+            <ul class="dropdown-menu">
+                <li><a href="rent-now.html"><span>Rent Now</span></a></li>
+                <li><a href="rent-item.html"><span>Rent Item</span></a></li>
+                <li class="ct-subDropdown"><a href="rent-page-variation-1.html">Rent Page</a>
+                    <ul class="ct-submenu dropdown-menu">
+                        <li><a href="rent-page-variation-1.html"><span>Rent Page v1</span></a></li>
+                        <li><a href="rent-page-variation-2.html"><span>Rent Page v2</span></a></li>
+                        <li><a href="rent-paypal.html"><span>Rent with Paypal integration</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <!--=========================================================================-->
+        <li class="dropdown"><a href="blog.html"><div class="ct-textEffect"><span data-content="Blog">Blog</span></div></a>
+            <ul class="dropdown-menu">
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="blog-single.html"><span>Blog Single</span></a></li>
+                <li><a href="blog-archive.html"><span>Blog Archive</span></a></li>
+            </ul>
+        </li>
+        <!--=========================================================================-->
+        <li class="dropdown"><a href="events.html"><div class="ct-textEffect"><span data-content="Events">Events</span></div></a>
+            <ul class="dropdown-menu">
+                <li><a href="events.html"><span>Events</span></a></li>
+                <li class="ct-subDropdown"><a href="event-single.html">Event Single</a>
+                    <ul class="ct-submenu dropdown-menu">
+                        <li><a href="event-single.html"><span>Event Single 1</span></a></li>
+                        <li><a href="event-single2.html"><span>Event Single 2</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <!--=========================================================================-->
+        <li class="dropdown"><a href="account.html"><div class="ct-textEffect"><span data-content="Pages">Pages</span></div></a>
+            <ul class="dropdown-menu">
+                <li><a href="account.html"><span>My Account</span></a></li>
+                <li><a href="login.html"><span>Login</span></a></li>
+
+                <li><a href="404.html"><span>404</span></a></li>
+            </ul>
+        </li>
+        <!--=========================================================================-->
+        <li><a href="contact.html"><div class="ct-textEffect"><span data-content="Contact">Contact</span></div></a></li>
+    </ul>
+
+</div>
+</nav>
+
+
+<div class="ct-slick ct-js-slick" data-adaptiveHeight="true" data-animations="true" data-autoplay="true" data-infinite="true" data-autoplaySpeed="6000" data-draggable="false" data-touchMove="false" data-arrows="true" data-items="1">
+    <div class="item" data-bg="./assets/images/content/boats/bg-02.jpg">
+        <div class="item-inner">
+            <div class="ct-slick-image">
+                <img class="animated" src="./assets/images/content/boats/slideImage-01.png" data-fx="bounceInLeft" data-time="50">
+            </div>
+            <div class="ct-slick-content">
+                <h2 class="ct-fw-lighter animated" data-fx="bounceInDown" data-time="600"><small>are you looking</small></h2>
+                <h2 class="ct-fw-900 text-uppercase ct-u-marginBoth10 animated" data-fx="bounceInDown" data-time="850">for adventure?</h2>
+                <p class="ct-u-marginBottom20 animated" data-fx="bounceInDown" data-time="600">Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. And we make sure our offer will give you a lot of fun too.</p>
+                <a href="rent-item.html" class="btn btn-motive animated" data-fx="bounceInDown" data-time="1350"><span>Rent a sailing boat</span></a>
+                <a href="contact.html" class="btn btn-graydarker animated" data-fx="bounceInDown" data-time="1100"><span>Contact Us</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="item" data-bg="./assets/images/content/boats/bg-02.jpg">
+        <div class="item-inner text-right pull-right">
+            <div class="ct-slick-content">
+                <h2 class="ct-fw-lighter animated" data-fx="bounceInDown" data-time="500"><small>are you looking</small></h2>
+                <h2 class="ct-fw-900 text-uppercase ct-u-marginBoth10 animated" data-fx="bounceInDown" data-time="750">for adventure?</h2>
+                <p class="ct-u-marginBottom20 animated" data-fx="bounceInDown" data-time="500">Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. And we make sure our offer will give you a lot of fun too.</p>
+                <a href="rent-item.html" class="btn btn-motive animated" data-fx="bounceInDown" data-time="1250"><span>Rent a sailing boat</span></a>
+                <a href="contact.html" class="btn btn-graydarker animated" data-fx="bounceInDown" data-time="1000"><span>Contact Us</span></a>
+            </div>
+            <div class="ct-slick-image">
+                <img class="animated" src="./assets/images/content/boats/slideImage-02.png" data-fx="bounceInRight" data-time="50">
+            </div>
+        </div>
+    </div>
+    <div class="item" data-bg="./assets/images/content/boats/bg-02.jpg">
+        <div class="item-inner">
+            <div class="ct-slick-image">
+                <img class="animated" src="./assets/images/content/boats/slideImage-03.png" data-fx="bounceInLeft" data-time="50">
+            </div>
+            <div class="ct-slick-content">
+                <h2 class="ct-fw-lighter animated" data-fx="bounceInDown" data-time="600"><small>are you looking</small></h2>
+                <h2 class="ct-fw-900 text-uppercase ct-u-marginBoth10 animated" data-fx="bounceInDown" data-time="850">for adventure?</h2>
+                <p class="ct-u-marginBottom20 animated" data-fx="bounceInDown" data-time="600">Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. And we make sure our offer will give you a lot of fun too.</p>
+                <a href="rent-item.html" class="btn btn-motive animated" data-fx="bounceInDown" data-time="1350"><span>Rent a sailing boat</span></a>
+                <a href="contact.html" class="btn btn-graydarker animated" data-fx="bounceInDown" data-time="1100"><span>Contact Us</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="item" data-bg="./assets/images/content/boats/bg-02.jpg">
+        <div class="item-inner text-right pull-right">
+            <div class="ct-slick-content">
+                <h2 class="ct-fw-lighter animated" data-fx="bounceInDown" data-time="500"><small>are you looking</small></h2>
+                <h2 class="ct-fw-900 text-uppercase ct-u-marginBoth10 animated" data-fx="bounceInDown" data-time="750">for adventure?</h2>
+                <p class="ct-u-marginBottom20 animated" data-fx="bounceInDown" data-time="500">Whatever your budget and whatever the size of car you are looking for, we are sure we can help you find what’s right for you. And we make sure our offer will give you a lot of fun too.</p>
+                <a href="rent-item.html" class="btn btn-motive animated" data-fx="bounceInDown" data-time="1250"><span>Rent a sailing boat</span></a>
+                <a href="contact.html" class="btn btn-graydarker animated" data-fx="bounceInDown" data-time="1000"><span>Contact Us</span></a>
+            </div>
+            <div class="ct-slick-image">
+                <img class="animated" src="./assets/images/content/boats/slideImage-04.png" data-fx="bounceInRight" data-time="50">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="ct-u-sectionGrayLighter ct-shadow ct-shadow--type1 ct-u-sectionBorder">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="ct-numberBox ct-numberBox--right ct-u-paddingBoth50">
+                    <h2 class="ct-numberBox-number"><b>21</b></h2>
+                    <h6 class="ct-numberBox-header ct-u-hr ct-u-hr--right">Speed boats</h6>
+                    <p class="ct-numberBox-content">We have a large base of satisfied customers, no one can give as much as we</p>
+                </div>
+            </div>
+            <div class="col-sm-4 ct-u-sectionGray">
+                <div class="ct-numberBox ct-numberBox--center ct-u-paddingBoth50">
+                    <h2 class="ct-numberBox-number"><b>37</b></h2>
+                    <h6 class="ct-numberBox-header ct-u-hr ct-u-hr--center">Sailing Boats</h6>
+                    <p class="ct-numberBox-content">We have a large base of satisfied customers, no one can give as much as we..</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-numberBox ct-u-paddingBoth50">
+                    <h2 class="ct-numberBox-number"><b>15</b></h2>
+                    <h6 class="ct-numberBox-header ct-u-hr ct-u-hr--left">Luxury yachts</h6>
+                    <p class="ct-numberBox-content">We have a large base of satisfied customers, no one can give as much as we.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ct-u-marginTop90 ct-u-paddingBottom10">
+    <div class="container">
+
+        <div class="ct-sectionHeader ct-u-marginBottom70">
+            <h2 class="ct-sectionHeader-title"><small>The Rentica <span>Company</span></small></h2>
+            <div class="ct-sectionHeader-separator">
+                <span class="minus"></span>
+                <span class="slash">/</span>
+                <span class="slash">/</span>
+                <span class="minus"></span>
+            </div>
+            <p>100% satisfaction or the money back policy is what we believe in and we do mean business.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-wrench"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Our boats work great</h6>
+                        <p>With 30 years boat hire experience in Europe and 60 years worldwide we allways remember that our top priority is to provide the best quality boat rental service at an affordable price.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-thumbs-o-up"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Outstanding reviews</h6>
+                        <p>Just look at out testimonials section. It is full of happy and fully satisfied customers that cannot wait to use our services again. It is just a pleasure and stress-free experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-car"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Take it for a spin</h6>
+                        <p>Come to our boat rental point and ask for a free ride to check if the car you were thinking about suits your needs. In no time you will be given a chance to drive and try if the trunk accomodates your luggage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-star"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Five star service</h6>
+                        <p>Our company is rated with 5 stars which guarantees that you will receive the best quality possible, and the satisfaction is guaranteed or the money back policy works perfect.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-money"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Discounts for groups</h6>
+                        <p>If you are planning to rent more than one boat, you are sure to receive a substancial discount for every next boat. So far there hac never been a client that would leave us without "thank you so much".</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type1 media ct-u-marginBottom50">
+                    <div class="h3 ct-iconBox-icon media-left"><small><i class="fa fa-flag"></i></small></div>
+                    <div class="ct-iconBox-content media-body">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--left">Let's go have some fun</h6>
+                        <p>Book one of our car rental deals, and you’ll be able to say bye-bye to the of public transportation. With unlimited mileage and special offers you can easily find cheap rental cars last minute.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="ct-mediaSection ct-mediaSection--desktop ct-sectionOverflow ct-sectionOverflow--imageLeft" data-height="450" data-type="color" data-bg-color="#f8f8f8">
+    <div class="ct-mediaSection-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ct-sectionOverflow-image">
+                        <img src="./assets/images/content/boats/sectionImage-01.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ct-sectionOverflow-content ct-u-textLeft ct-u-marginTop130">
+                        <h6 class="ct-fw-bold text-uppercase ct-u-hr ct-u-hr--left">Everything from Speed boats to Luxury yachts</h6>
+                        <p>On this very special day you will have the pleasure to witness the best racing boats in the world. We can guarantee you as our client to have the best seats and a complimentary snacks to accompany you while viewing this amazing show. Take your friends with you! The next race is set to be in Monaco so a great chance to soak up the sun too.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ct-mediaSection ct-mediaSection--desktop ct-sectionOverflow ct-sectionOverflow--imageRight" data-height="450" data-type="color" data-bg-color="#f8f8f8">
+    <div class="ct-mediaSection-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-push-6">
+                    <div class="ct-sectionOverflow-image">
+                        <img src="./assets/images/content/boats/sectionImage-02.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-pull-6">
+                    <div class="ct-sectionOverflow-content ct-u-textRight ct-u-marginTop130">
+                        <h6 class="ct-fw-bold text-uppercase ct-u-hr ct-u-hr--right">Everything from Speed boats to Luxury yachts</h6>
+                        <p>This a something that we have been looking forward to for last months. On this very show we will present all the best models that you are free to take for a drive, in case you would like to rent them in the future. So thus this will save you the trouble of testing them first. No pre-booking for test driving is required. Just come and test them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ct-u-sectionMotive">
+    <div class="ct-sectionHeader ct-u-paddingBoth60">
+        <h2 class="ct-sectionHeader-title"><small>The amazing <span>team</span></small></h2>
+        <div class="ct-sectionHeader-separator">
+            <span class="minus"></span>
+            <span class="slash">/</span>
+            <span class="slash">/</span>
+            <span class="minus"></span>
+        </div>
+        <p>Our staff is dedicated, enthusiastic and always go the extra mile.</p>
+    </div>
+</section>
+
+<div class="ct-mediaSection ct-mediaSection--desktop" data-height="450" data-type="pattern" data-bg-image="./assets/images/content/boats/bg-03.jpg" data-bg-image-mobile="./assets/images/content/boats/bg-03.jpg">
+    <div class="ct-mediaSection-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="ct-personBox">
+                        <div class="ct-personBox-image"><img src="./assets/images/content/boats/person-01.jpg" alt=""/></div>
+                        <div class="ct-personBox-content">
+                            <h6 class="ct-personBox-header">James Witherspoon <small>the big boss</small></h6>
+                            <ul class="ct-socials">
+                                <li><a data-toggle="tooltip" data-placement="top" title="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ct-personBox">
+                        <div class="ct-personBox-image"><img src="./assets/images/content/boats/person-02.jpg" alt=""/></div>
+                        <div class="ct-personBox-content">
+                            <h6 class="ct-personBox-header">Jessica Dawson <small>sales manager</small></h6>
+                            <ul class="ct-socials">
+                                <li><a data-toggle="tooltip" data-placement="top" title="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ct-personBox">
+                        <div class="ct-personBox-image"><img src="./assets/images/content/boats/person-03.jpg" alt=""/></div>
+                        <div class="ct-personBox-content">
+                            <h6 class="ct-personBox-header">Marcel Bennington <small>test drive officer</small></h6>
+                            <ul class="ct-socials">
+                                <li><a data-toggle="tooltip" data-placement="top" title="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="ct-personBox">
+                        <div class="ct-personBox-image"><img src="./assets/images/content/boats/person-04.jpg" alt=""/></div>
+                        <div class="ct-personBox-content">
+                            <h6 class="ct-personBox-header">Jade Marceau <small>support</small></h6>
+                            <ul class="ct-socials">
+                                <li><a data-toggle="tooltip" data-placement="top" title="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a data-toggle="tooltip" data-placement="top" title="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="ct-sectionGrayLighter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2 class="ct-u-textRight ct-u-marginTop30 ct-fw-lighter"><small>The most <span class="ct-fw-800">exciting vacations</span> you've ever had</small></h2>
+            </div>
+            <div class="col-sm-8">
+                <p class="ct-u-marginTop40 ct-u-marginBottom70">
+                    Thanks to our boats Your vacation will become much calmer. You will not have to worry about transportation, no formalities, tickets. All send to us immediately and you will not have to worry about any formalities. I'll take care of all our highly qualified staff who will take care so that you have a peaceful holiday where you will not have any worries. Order today our boat and take care of your calm on their amazing expeditions full of only positive memories. Remember we are always and everywhere for you.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ct-mediaSection ct-mediaSection--desktop ct-u-paddingBottom50" data-type="pattern" data-height="auto" data-bg-image="./assets/images/content/boats/bg-01.jpg" data-bg-image-mobile="./assets/images/content/boats/bg-01-mobile.jpg">
+    <div class="container">
+        <div class="ct-sectionHeader ct-u-paddingTop60 ct-u-paddingBottom70">
+            <h2 class="ct-sectionHeader-title"><small>Our little <span>Monsters</span></small></h2>
+            <div class="ct-sectionHeader-separator">
+                <span class="minus"></span>
+                <span class="slash">/</span>
+                <span class="slash">/</span>
+                <span class="minus"></span>
+            </div>
+            <p>We have it in our garage</p>
+        </div>
+
+        <div class="row ct-u-paddingBottom30">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="ct-slick ct-js-slick" data-items="1" data-dots="true">
+                    <div class="item"><img src="./assets/images/content/boats/slide-01.jpg" alt=""/></div>
+                    <div class="item"><img src="./assets/images/content/boats/slide-02.jpg" alt=""/></div>
+                    <div class="item"><img src="./assets/images/content/boats/slide-03.jpg" alt=""/></div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Boxes -->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type2 ct-u-marginBottom100">
+                    <div class="h2 ct-iconBox-icon"><small><i class="fa fa-map-marker"></i></small></div>
+                    <div class="ct-iconBox-content">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--center">Choose your destination</h6>
+                        <p>We're in every country in the world. If you want boat in the middle of the jungle, it will </p>
+                        <a href="about.html" class="btn btn-motive"><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type2 ct-u-marginBottom100">
+                    <div class="h2 ct-iconBox-icon"><small><i class="fa fa-flag"></i></small></div>
+                    <div class="ct-iconBox-content">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--center">It's going to get speedy</h6>
+                        <p>We can deliver any boat in any place on different hours. Everything for our customers.</p>
+                        <a href="about.html" class="btn btn-motive"><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="ct-iconBox ct-iconBox--type2 ct-u-marginBottom100">
+                    <div class="h2 ct-iconBox-icon"><small><i class="fa fa-leaf"></i></small></div>
+                    <div class="ct-iconBox-content">
+                        <h6 class="ct-iconBox-header ct-u-hr ct-u-hr--center">Environment friendly boats</h6>
+                        <p>We like our planet so we take care of it. We have boats environmentally friendly.</p>
+                        <a href="about.html" class="btn btn-motive"><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="ct-footer ct-u-sectionDark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="ct-footer-logo ct-u-paddingTop50 ct-u-paddingBottom30"><img src="./assets/images/content/logo2.png" alt="logo"></div>
+                <p>Rentica operate in the booking market since 2000. We created a platform that would not only allow our clients to book a boat, but to make this process as easy as possible. Rentica deals with all the major boat hire companies around the world checking which local supplier is offering the best prices for the boat you want on the date you need it.</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="ct-sectionHeader ct-sectionHeader--left ct-u-paddingTop50">
+                    <h3 class="ct-sectionHeader-title">Next events</h3>
+                    <div class="ct-sectionHeader-separator">
+                        <span class="slash">/</span>
+                        <span class="slash">/</span>
+                        <span class="minus"></span>
+                    </div>
+                </div>
+
+                <a href="events.html">
+                     <div class="media ct-mediaObject">
+                         <div class="media-left"><img src="./assets/images/content/boats/footerObject-01.jpg" alt=""></div>
+                         <div class="media-body">
+                             <h6 class="ct-mediaObject-header">Rentica speed boat racing finals</h6>
+                             <h2 class="ct-mediaObject-date"><small>Aug 25 <span>2015</span></small></h2>
+                         </div>
+                     </div>
+                 </a>
+                 <a href="events.html">
+                     <div class="media ct-mediaObject">
+                         <div class="media-left"><img src="./assets/images/content/boats/footerObject-02.jpg" alt=""></div>
+                         <div class="media-body">
+                             <h6 class="ct-mediaObject-header">Rentica Sail Boats Showdown</h6>
+                             <h2 class="ct-mediaObject-date"><small>Sep 03 <span>2015</span></small></h2>
+                         </div>
+                     </div>
+                 </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="ct-sectionHeader ct-sectionHeader--left ct-u-paddingTop50 ct-u-marginBottom15">
+                    <h3 class="ct-sectionHeader-title">Flickr gallery</h3>
+                    <div class="ct-sectionHeader-separator">
+                        <span class="slash">/</span>
+                        <span class="slash">/</span>
+                        <span class="minus"></span>
+                    </div>
+                </div>
+
+                <div class="ct-flickrGallery">
+                    <!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user_set&amp;set=72157612872346179"></script>-->
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-01-big.jpg"><img src="./assets/images/content/boats/flickr-01.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-02-big.jpg"><img src="./assets/images/content/boats/flickr-02.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-03-big.jpg"><img src="./assets/images/content/boats/flickr-03.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-04-big.jpg"><img src="./assets/images/content/boats/flickr-04.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-05-big.jpg"><img src="./assets/images/content/boats/flickr-05.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-06-big.jpg"><img src="./assets/images/content/boats/flickr-06.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-07-big.jpg"><img src="./assets/images/content/boats/flickr-07.jpg" alt=""/></a>
+                    <a class="ct-js-magnificPopupImage" href="./assets/images/content/boats/gallery-08-big.jpg"><img src="./assets/images/content/boats/flickr-08.jpg" alt=""/></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="ct-footer-meta ct-u-sectionMotive ct-u-marginTop70">
+        <div class="container">
+            <div class="ct-footer-copyright">COPYRIGHT © <a href="http://outsourcing.createit.pl/">createIT</a> 2014</div>
+            <ul class="ct-socials">
+                <li><a data-toggle="tooltip" data-placement="top" title="flickr" href="#"><i class="fa fa-flickr"></i></a></li>
+                <li><a data-toggle="tooltip" data-placement="top" title="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a data-toggle="tooltip" data-placement="top" title="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                <li><a data-toggle="tooltip" data-placement="top" title="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a data-toggle="tooltip" data-placement="top" title="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+<!-- JavaScripts -->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/js/dependencies.js"></script>
+
+<script src="./assets/js/main.js"></script>
+
+<script src="./assets/plugins/ct-mediaSection/js/jquery.stellar.min.js"></script>
+<script src="./assets/plugins/ct-mediaSection/js/init.js"></script>
+
+<script src="./assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="./assets/plugins/magnific-popup/init.js"></script>
+
+<script src="./assets/plugins/slick/slick.min.js"></script>
+<script src="./assets/plugins/slick/init.js"></script>
+
+
+
+</body>
+</html>
