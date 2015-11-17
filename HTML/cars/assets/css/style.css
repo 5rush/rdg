@@ -6520,7 +6520,8 @@ h2,
   font-family: 'Open Sans', sans-serif;
 }
 .ct-t-fontAlt {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
 }
 body,
 h2 b {
@@ -6539,7 +6540,8 @@ small,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
 }
 p {
   font-size: 1.000rem;
@@ -8104,7 +8106,8 @@ p {
   box-shadow: none;
 }
 .navbar a {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
 }
 .navbar button.navbar-toggle,
 .navbar button.navbar-toggle:focus,
@@ -8139,7 +8142,8 @@ p {
 .navbar .navbar-nav li a {
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
 }
 .navbar .navbar-nav li a > .ct-textEffect {
   overflow: hidden;
@@ -8572,7 +8576,8 @@ p {
     text-transform: uppercase;
     font-size: 0.886em;
     font-weight: 700;
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    /*font-family: "Lato", sans-serif;*/
     position: absolute;
     top: 0;
     right: -40px;
@@ -9337,7 +9342,8 @@ p {
 }
 .btn span {
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
   font-weight: bold;
 }
 .btn i {
@@ -10754,7 +10760,8 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
 }
 .ct-footer .ct-footer-meta .ct-footer-copyright {
   float: left;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
   font-weight: bold;
   text-transform: uppercase;
 }
