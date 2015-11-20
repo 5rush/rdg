@@ -10278,7 +10278,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
   margin-bottom: 3px;
 }
 .ct-sectionHeader-separator .minus {
-  width: 20px;
+  width: 40px;
   height: 2px;
   margin-bottom: 4px;
   background: #222;
@@ -10763,7 +10763,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
   font-family: "Source Sans Pro", sans-serif;
   /*font-family: "Lato", sans-serif;*/
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .ct-footer .ct-footer-meta .ct-footer-copyright a {
   color: #fff;
