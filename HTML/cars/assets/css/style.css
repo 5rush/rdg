@@ -6599,7 +6599,7 @@ h6 small,
   font-size: 0.929rem;
 }
 p {
-  color: #777;
+  color: #333;
   line-height: 1.86em;
 }
 .ct-t-hover:hover {
@@ -10298,7 +10298,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
 }
 .ct-sectionHeader p {
   font-weight: bold;
-  color: #aaa;
+  color: #777;
 }
 .ct-sectionHeader.ct-sectionHeader--left {
   text-align: left;
@@ -12751,5 +12751,11 @@ label.disabled {
 
 .text-right .media-body,
 .text-right .media-right {
-    display: inline-block;
+  display: inline-block;
+}
+
+.img-center{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
