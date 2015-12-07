@@ -12759,3 +12759,32 @@ label.disabled {
   margin: 0 auto;
   padding-bottom: 20px;
 }
+
+.wrap {
+  position:relative;
+  float:left;
+  clear:none;
+  overflow:hidden;
+}
+
+.wrap img {
+  position:relative;
+  z-index:1;
+}
+
+.wrap .desc {
+  color: white;
+  background-color: #e74c46;
+  display:block;
+  position:absolute;
+  width:40%;
+  top:0;
+  left:20%;
+  height: 100%;
+  z-index:2;
+}
+.desc .ct-sectionHeader-separator .minus{
+  background: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
