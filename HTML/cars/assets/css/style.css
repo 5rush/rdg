@@ -6564,7 +6564,7 @@ h2 b,
 }
 h2 small,
 .h2 small {
-  font-size: 2.857rem;
+  font-size: 2.5rem;
 }
 h3,
 .h3 {
@@ -10353,7 +10353,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
 .ct-u-sectionDark a:hover,
 .ct-u-sectionMotive a:hover,
 .ct-u-sectionGrayDarker a:hover {
-  color: #fff;
+  color: #222;
 }
 .ct-sectionOverflow {
   overflow: hidden;
@@ -10457,8 +10457,12 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
   display: inline-block;
 }
 .ct-socials li a {
-  font-size: 1.571em;
+  font-size: 1.2em;
   padding: 0 4px;
+}
+.ct-socials li a:hover,
+.ct-socials li a i .fa:hover {
+  color: #222;
 }
 .ct-socials li a i {
   color: #fff;
@@ -10762,7 +10766,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
   float: left;
   font-family: "Source Sans Pro", sans-serif;
   /*font-family: "Lato", sans-serif;*/
-  font-weight: bold;
+  /*font-weight: bold;*/
   /*text-transform: uppercase;*/
 }
 .ct-footer .ct-footer-meta .ct-footer-copyright a {
@@ -12773,18 +12777,81 @@ label.disabled {
 }
 
 .wrap .desc {
+  opacity: 1;
   color: white;
-  background-color: #e74c46;
-  display:block;
-  position:absolute;
-  width:40%;
-  top:0;
-  left:20%;
-  height: 100%;
-  z-index:2;
+  background-color: rgba(231, 76, 70, 0.93);
+  display: block;
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 5%;
+  height: 85%;
+  z-index: 2;
+  padding: 40px 25px;
 }
+
+.wrap .desc h4 {
+  text-align: right;
+}
+
+.wrap .desc .minus {
+  width: 100%;
+}
+
+.desc {
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.desc-h4{
+  font-size: 1.2rem;
+}
+
+.desc-title{
+  padding-top: 30px;
+}
+
 .desc .ct-sectionHeader-separator .minus{
   background: white;
+}
+
+.desc-right {
+  text-align: right;
+  padding-right: 30px; 
+}
+
+.sectionBorderRed{
+  border-top-color: #e74c46;
+}
+
+.desc .ct-sectionHeader-separator {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.desc-icon {
+  padding-right: 5px;
+}
+
+.desc-location{
+  color:white;
+}
+
+.desc-location:hover {
+  color: #222;
+}
+
+.desc-location:hover .ct-sectionHeader-separator .minus {
+  background: #222;
+}
+
+.footer-location,
+.footer-location * {
+  color: white;
+}
+
+.footer-location:hover,
+.footer-location:hover * {
+  color: #222;
 }
