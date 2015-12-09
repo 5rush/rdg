@@ -10618,7 +10618,7 @@ body.boxed .ct-topBar + .ct-menuMobile + .ct-pageWrapper nav.navbar,
 @media (min-width: 768px) {
   nav + .ct-slick,
   nav + header {
-    margin-top: 160px;
+    margin-top: 60px;
   }
 }
 .ct-slick--synced {
