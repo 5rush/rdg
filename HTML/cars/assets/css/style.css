@@ -12391,6 +12391,7 @@ label.disabled {
   margin-top: 3.571rem;
 }
 .ct-404-header b {
+  text-align: center;
   font-size: 1.35em;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #e74c46;
