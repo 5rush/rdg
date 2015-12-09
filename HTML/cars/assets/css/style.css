@@ -12847,6 +12847,12 @@ label.disabled {
   background: #222;
 }
 
+@media (max-width: 955px) {
+  .desc .desc-title {
+    padding-top: 0;
+  }
+}
+
 .footer-location,
 .footer-location * {
   color: white;
@@ -12855,4 +12861,43 @@ label.disabled {
 .footer-location:hover,
 .footer-location:hover * {
   color: #222;
+}
+
+.phone-number {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .our-values .ct-iconBox {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    padding-left: 30px;
+  }
+  
+  .our-values .ct-iconBox .media-right {
+    padding-right: 18px;
+    display: block;
+    float: left;
+    vertical-align: top;
+    padding-left: 0;
+  }
+  
+  .our-values .ct-iconBox .media-body {
+      vertical-align: top;
+  }
+  
+  .our-values .ct-iconBox .ct-u-hr.ct-u-hr--right:after {
+    left: 0;
+    right: initial;
+  }
+  
+  footer .ct-footer-meta {
+    text-align: center;
+  }
+  
+  footer.ct-footer .ct-footer-meta .ct-footer-copyright,
+  footer.ct-footer .ct-footer-meta .ct-socials {
+    float: none;
+  }
 }
