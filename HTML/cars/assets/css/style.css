@@ -12783,10 +12783,10 @@ label.disabled {
   background-color: rgba(231, 76, 70, 0.93);
   display: block;
   position: absolute;
-  width: 30%;
+  width: 220px;
   top: 0;
   left: 5%;
-  height: 85%;
+  height: 400px;
   z-index: 2;
   padding: 40px 25px;
 }
