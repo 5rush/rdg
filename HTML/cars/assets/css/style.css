@@ -8503,6 +8503,7 @@ p {
 @media (max-width: 767px) {
   .navbar {
     margin-top: 0 !important;
+    min-height: auto;
   }
   .navbar .nav.navbar-nav {
     display: none;
