@@ -8270,7 +8270,10 @@ p {
 
 .navbar.ct-navbar .navbar-header {
   height: 60px;
-  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
   margin-left: 20px;
 }
 
@@ -8521,7 +8524,6 @@ p {
 
   .navbar.ct-navbar .navbar-header {
     position: absolute;
-    right: 10px;
     top: 0;
     z-index: 1;
     height: 40px;
@@ -8531,9 +8533,10 @@ p {
   }
 
   .navbar.ct-navbar .navbar-header a.ct-logoDark {
-    right: 0;
+    left: initial;
+    right: 10px;
     height: 26px;
-    background: white;
+    background: #f8f8f8;
     padding: 2px 7px;
   }
 
@@ -9024,7 +9027,6 @@ p {
   max-height: 100%;
   overflow: hidden;
   z-index: -1;
-  border-right: 1px solid #222222;
 }
 .ct-menuMobile-navbar {
   list-style: none;
@@ -9105,6 +9107,8 @@ p {
   text-align: center;
   height: 101px;
   display: block;
+  background: rgb(248, 248, 248) none repeat scroll 0% 0%;
+  padding: 0px 15px;
 }
 .ct-menuMobile-logo a {
   line-height: 101px;
