@@ -1,2 +1,0 @@
-# rdg
-mechanic website
