@@ -8267,30 +8267,29 @@ p {
     top: 0;
   }
 }
+
 .navbar.ct-navbar .navbar-header {
-  display: block;
+  height: 60px;
   width: 100%;
-  text-align: center;
-  line-height: 100px;
-  position: relative;
-}
-.navbar.ct-navbar .navbar-header img {
-  width: 176px;
-}
-.navbar.ct-navbar .navbar-header:after,
-.navbar.ct-navbar .navbar-nav:after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  background-color: #ddd;
+  top: 0;
   left: 0;
-  width: 100%;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.navbar.ct-navbar .navbar-header a.ct-logoDark {
+  display: block;
+  position: absolute;
+  top: 0;
   bottom: 0;
-  z-index: -1;
+  margin: auto;
+  height: 45px;
 }
-.navbar.ct-navbar .navbar-header:after {
-  bottom: -1px;
+
+.navbar.ct-navbar .navbar-header a.ct-logoDark img {
+  height: 100%;
 }
+
 .navbar.ct-navbar .navbar-nav {
   float: none;
   display: table;
@@ -8518,9 +8517,33 @@ p {
   .navbar .ct-navbarBox div.navbar-header {
     line-height: 70px;
   }
+
   .navbar .ct-navbarBox div.navbar-header img {
     max-width: 175px;
   }
+
+  .navbar.ct-navbar .navbar-header {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 40px;
+    margin: 0;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .navbar.ct-navbar .navbar-header a.ct-logoDark {
+    left: initial;
+    right: 10px;
+    height: 26px;
+    background: #f8f8f8;
+    padding: 2px 7px;
+  }
+
+  .navbar.ct-navbar .navbar-header a.ct-logoDark img {
+    width: 98px;
+  }
+
   .navbar .ct-navbarBox .ct-login,
   .navbar .ct-navbarBox .ct-navbarBox-meta {
     float: right;
@@ -8846,7 +8869,9 @@ p {
 }
 .navbar.navbar-default .ct-logoDark,
 #navbar-default .ct-logoDark {
-  display: block;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
 }
 .navbar.navbar-default .ct-logoWhite,
 #navbar-default .ct-logoWhite {
@@ -9002,7 +9027,6 @@ p {
   max-height: 100%;
   overflow: hidden;
   z-index: -1;
-  border-right: 1px solid #222222;
 }
 .ct-menuMobile-navbar {
   list-style: none;
@@ -9083,6 +9107,8 @@ p {
   text-align: center;
   height: 101px;
   display: block;
+  background: rgb(248, 248, 248) none repeat scroll 0% 0%;
+  padding: 0px 15px;
 }
 .ct-menuMobile-logo a {
   line-height: 101px;
@@ -12786,7 +12812,7 @@ label.disabled {
   position: absolute;
   width: 220px;
   top: 0;
-  left: 5%;
+  left: 30px;
   height: 400px;
   z-index: 2;
   padding: 40px 25px;
@@ -12820,7 +12846,7 @@ label.disabled {
 
 .desc-right {
   text-align: right;
-  padding-right: 30px; 
+  padding-right: 30px;
 }
 
 .sectionBorderRed{
@@ -12875,7 +12901,6 @@ label.disabled {
     width: 100%;
     padding-left: 30px;
   }
-  
   .our-values .ct-iconBox .media-right {
     padding-right: 18px;
     display: block;
@@ -12883,20 +12908,20 @@ label.disabled {
     vertical-align: top;
     padding-left: 0;
   }
-  
+
   .our-values .ct-iconBox .media-body {
       vertical-align: top;
   }
-  
+
   .our-values .ct-iconBox .ct-u-hr.ct-u-hr--right:after {
     left: 0;
     right: initial;
   }
-  
+
   footer .ct-footer-meta {
     text-align: center;
   }
-  
+
   footer.ct-footer .ct-footer-meta .ct-footer-copyright,
   footer.ct-footer .ct-footer-meta .ct-socials {
     float: none;
